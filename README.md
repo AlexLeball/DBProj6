@@ -3,6 +3,7 @@ NexaworksProjet
 
 ## 🗂 Modèle entité–association
 doc/ERD
+<img width="838" height="820" alt="image" src="https://github.com/user-attachments/assets/b40dd33b-7f26-41a6-bc59-ee7c410a1aca" />
 
 **Produit** (id_produit, nom_produit) - 
 **Version** (id_version, numero_version, id_produit) - 
