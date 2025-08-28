@@ -91,7 +91,7 @@ Exécuter les procédures stockées dans SSMS :
 EXEC GetAllTickets;
 
 -- Tickets créés entre deux dates
-EXEC GetTicketsByDateRange '2023-01-01', '2023-12-31';
+EXEC GetTicketsByDateRange '2025-01-05', '2025-12-31';
 
 -- Tickets pour un produit donné
 EXEC GetTicketsByProduct 2;
