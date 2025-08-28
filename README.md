@@ -45,7 +45,7 @@ Ce projet inclut :
 
     ```sql
     USE NexaWorks_Project;
-    SELECT TOP 10 * FROM Ticket;
+    SELECT * FROM Ticket;
     ```
 
     Vous devriez voir les 25 tickets d’exemple.
@@ -84,3 +84,22 @@ Ce projet inclut :
 | `ObtenirTickets`            | Filtre combiné flexible selon plusieurs critères  |
 
 ---
+## 🚀 Utilisation – Exemples de requêtes
+
+Exécuter les procédures stockées dans SSMS :
+-- Lister tous les tickets
+EXEC GetAllTickets;
+
+-- Tickets créés entre deux dates
+EXEC GetTicketsByDateRange '2023-01-01', '2023-12-31';
+
+-- Tickets pour un produit donné
+EXEC GetTicketsByProduct 2;
+
+-- Tickets avec statut "Ouvert"
+EXEC GetTicketsByStatus 'Ouvert';
+
+-- Recherche par mot-clé
+EXEC GetTicketsByKeywords 'crash';
+
+
